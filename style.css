@@ -1,0 +1,490 @@
+body{
+  margin: 0;
+  /* padding: 0; */
+  background-color: rgb(255,245,226);
+  font-family: "Poppins", serif;
+}
+
+.navbar img{
+  max-width: 90px;
+  height: 60px;
+  padding-left: 20px;
+}
+
+.navbar{
+  display: flex;
+  background-color: white;
+
+}
+
+.taskbar{
+padding-left: 150px;
+padding-top: 15px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: rgb(59,0,115);
+  padding-left: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.yellow{
+  padding-top: 15px;
+}
+.yellow a{
+  color: rgb(241,182,73);
+
+}
+
+.img-container{
+  position: relative;
+  margin: 0;
+}
+
+
+
+.cover{
+  
+width: 100%;
+  height: 100vh;
+ margin-left: 0;
+}
+
+.raise{
+  position: absolute;
+ left: 36rem;
+ bottom: 12rem;
+ font-size: 27px;
+ color: rgb(77,51,71);
+ font-weight: 600px;
+ text-align: right;
+
+}
+
+
+
+h3{
+  font-size: 23px;
+  text-align: center;
+  line-height: 30px;
+}
+
+p{
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+color: rgb(77,51,71);
+line-height: 24px;
+}
+
+#general{
+  /* border: solid thick rgb(83, 83, 138); */
+  width: 100%;
+  height: 600px;
+
+}
+
+#general #number1{
+ justify-items: right;
+ padding-right: 5px;
+  float: left;
+  /* border: solid thick rgb(84, 226, 41); */
+  width: 36%;
+  height: 550px;
+}
+
+#general #number1 a {
+  text-decoration: none;
+}
+
+#general #number1 #vit {
+ color: black;
+ font-weight: 600;
+}
+
+#general #number1 a p{
+/* text-decoration: none; */
+text-align: right;
+font-size: 13px;
+}
+
+#general #number1 #eye{
+  border: 1px solid rgb(230, 209, 247);
+  width: 35px;
+  height: 35px;
+background-color: rgb(230, 209, 247);
+border-radius: 5px;
+align-content: center;
+
+}
+#eye i{
+  margin-left: 8px;
+  
+}
+
+#general #number1 a p:hover{
+  /* font-size: 10px; */
+  transform: scale(1.05);
+}
+
+
+
+#general #number2{
+  float: left;
+  /* border: solid thick rgb(246, 250, 13); */
+  width: 25%;
+  height: 550px;
+  margin-left: 3px;
+}
+
+#number2 img:hover{
+  cursor: pointer;
+transform: scale(1.08);
+}
+
+#general #number3{
+  float: right;
+  /* border: solid thick rgb(226, 53, 41); */
+  width: 38%;
+  height: 550px;
+}
+
+#general #number3 a {
+  text-decoration: none;
+}
+
+#general #number3 #vit {
+ color: black;
+ font-weight: 600;
+padding-right: 450px;
+}
+
+#general #number3 a p{
+/* text-decoration: none; */
+text-align:left;
+font-size: 13px;
+}
+
+#general #number3 #eye{
+  border: 1px solid rgb(230, 209, 247);
+  width: 35px;
+  height: 35px;
+background-color: rgb(230, 209, 247);
+border-radius: 5px;
+align-content: center;
+
+}
+#eye i{
+  margin-left: 8px;
+  
+}
+
+#general #number3 a p:hover{
+  /* font-size: 10px; */
+  transform: scale(1.05);
+}
+
+.purple{
+  width: 100%;
+  height: 800px;
+  /* border: 1px solid blue; */
+}
+
+#maincontent{
+  /* border: 1px solid black; */
+ height: 350px;
+ width: 100%;
+ padding-top: 60px;
+}
+
+#maincontent #cont1{
+  /* border: 1px solid green; */
+  height: 320px;
+  width: 290px;
+  float: left;
+  margin-left: 150px;
+  border-radius: 18px;
+  background-image: url("https://www.bournvita.ng/media/products-bg-6QGJJ5ZK.svg");
+  justify-items: center;
+  transform: rotate(3deg);
+}
+
+#maincontent #cont1:hover{
+  transform: rotate(0);
+  cursor: pointer;
+}
+
+#maincontent #cont1 img{
+  width: 120px;
+  height: 265px;
+ margin-top: 20px;
+}
+
+#maincontent #cont1 img:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+#maincontent #cont1 p{
+  color: white;
+  margin: -10px;
+  font-family: sans-serif;
+}
+
+#maincontent #cont2{
+  /* border: 1px solid rgb(98, 18, 189); */
+  height: 320px;
+  width: 290px;
+  float: left;
+  margin-left: 30px;
+  border-radius: 18px;
+  background-image: url("https://www.bournvita.ng/media/products-bg-6QGJJ5ZK.svg");
+  justify-items: center;
+  transform: rotate(-3deg);
+}
+
+#maincontent #cont2:hover{
+  transform: rotate(0);
+  cursor: pointer;
+}
+
+
+#maincontent #cont2 img{
+  width: 100px;
+  height: 210px;
+ margin-top: 50px;
+
+}
+
+#maincontent #cont2 img:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+
+#maincontent #cont2 p{
+  color: white;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+
+
+#maincontent #cont3{
+  /* border: 1px solid rgb(223, 119, 51); */
+  height: 320px;
+  width: 290px;
+  float: right;
+  margin-right: 135px;
+  border-radius: 18px;
+  background-image: url("https://www.bournvita.ng/media/products-bg-6QGJJ5ZK.svg");
+  justify-items: center;
+  transform: rotate(3deg);
+}
+
+#maincontent #cont3:hover{
+  transform: rotate(0);
+  cursor: pointer;
+}
+
+#maincontent #cont3 img{
+  width: 190px;
+  height: 190px;
+ margin-top: 60px;
+
+}
+
+#maincontent #cont3 img:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+
+#maincontent #cont3 p{
+  color: white;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+#maincontent2{
+  /* border: 1px solid rgb(167, 11, 11); */
+ height: 400px;
+justify-items: center;
+}
+
+#maincontent2 #cont4{
+  /* border: 1px solid rgb(98, 18, 189); */
+  height: 320px;
+  width: 290px;
+  margin-left: 30px;
+  border-radius: 18px;
+  background-image: url("https://www.bournvita.ng/media/products-bg-6QGJJ5ZK.svg");
+  justify-items: center;
+  transform: rotate(-3deg);
+}
+
+#maincontent2 #cont4:hover{
+  transform: rotate(0);
+  cursor: pointer;
+}
+
+
+#maincontent2 #cont4 img{
+  width: 140px;
+  height: 130px;
+ margin-top: 80px;
+
+}
+
+#maincontent2 #cont4 img:hover{
+transform: scale(1.4);
+cursor: pointer;
+}
+
+#maincontent2 #cont4 p{
+  color: white;
+  margin: 50px;
+  font-family: sans-serif;
+}
+
+
+
+
+.champions{
+  margin: 0;
+  width: 100%;
+  height: 58vh;
+  background-color: rgb(59,0,115);
+}
+
+.kids{
+  text-align: center;
+  padding-top: 2rem;
+  font-style: normal;
+  color: rgb(240,179,66);
+}
+
+.joins{
+color: white;
+font-size: 13px;
+}
+
+.newsletter{
+position: absolute;
+left: 32rem;
+/* border: 1px solid rgb(243, 191, 95); */
+background: linear-gradient( to right,rgb(243,191,95), rgb(253,239,211)) ;
+border-radius: 5rem;
+width: 150px;
+padding: 1rem;
+padding-left: 25px;
+text-decoration: none;
+font-style: normal;
+font-size: 15px;
+font-weight: 600;
+}
+
+.yellows{
+  margin: 0;
+  width: 100%;
+  height: 55vh;
+  background-color: #f1b649;
+}
+
+.carbury{
+  width: 80px;
+  height: 30px;
+  padding: 35px;
+}
+
+#mondelez{
+  width: 150px;
+  height: 100px;
+}
+
+#trademark{
+  margin-left: 35px;
+  text-align: left;
+  top: 35px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(77,51,71);
+  font-size: 14px;
+}
+
+#connect{
+  position: relative;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: normal;
+  bottom: 270px;
+  padding-left: 210px;
+  color: #3b0073;
+}
+
+.locate{
+position: relative;
+/* font-size: 2rem; */
+font-weight: bolder;
+font-style: normal;
+bottom: 280px;
+padding-left: 10px;
+color: black;
+}
+
+.nigeria{
+  position:relative;
+  font-weight: 300;
+  font-style: normal;
+  bottom: 295px;
+  padding-left: 35rem;
+ color: rgb(77,51,71);
+ text-align: justify;
+font-size: 14px;
+  }
+
+  .socials{
+    position: relative;
+    font-weight: bolder;
+    font-style: normal;
+    bottom: 300px;
+    padding-left: 10px;
+    color: black;
+    }
+
+    
+  .icons{
+    position: relative;
+    bottom: 300px;
+    padding-left: 35rem;
+  /* min-width: 50px; */
+    size: 24px;
+    cursor: pointer;
+    }
+
+
+.policy{
+position: relative;
+bottom: 500px;
+padding-left: 55rem;
+
+}
+
+.policy a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-style: normal;
+line-height: 24px;
+}
+
+footer{
+  font-weight: 500;
+  font-style: normal;
+  /* font-family: sans-serif; */
+  color: rgb(59,0,115);
+  /* font-weight: 600; */
+  font-size: 15px;
+margin: 20px;
+}
